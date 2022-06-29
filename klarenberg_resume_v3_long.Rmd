@@ -1,0 +1,281 @@
+---
+title: "Résumé" #This is not being used anywhere
+author: "Geraldine Klarenberg" # Goes on top
+date: "`r Sys.Date()`" # Is used at the bottom right
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+    css: 
+    - "resume_klarenberg_additions.css"
+    - resume
+    - https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+
+---
+
+Aside
+================================================================================
+
+Contact {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope fa-lg"></i> gklarenberg@gmail.com
+- <i class="fa fa-phone fa-lg"></i> +1 386-517-3952
+- <i class="fa fa-home fa-lg"></i> Gainesville, Florida (USA)
+- <i class="fa fa-globe fa-lg"></i> [www.geraldineklarenberg.com](http://www.geraldineklarenberg.com)
+- <i class="fa fa-linkedin-square fa-lg"></i> [geraldine-klarenberg-a8842511/](http://www.linkedin.com/geraldine-klarenberg-a8842511/)
+- <i class="fa fa-twitter fa-lg"></i> @DinaKla
+- <i class="fa fa-github fa-lg"></i> [gklarenberg](http://github.com/gklarenberg)
+
+<!-- - <i class="fa fa-gitlab fa-lg"></i>  [gklarenberg](http://gitlab.com/gklarenberg)
+- <i class="ai ai-google-scholar"></i> [Geraldine Klarenberg](https://scholar.google.com/citations?user=ZV5nyVQAAAAJ&hl=en) 
+- <i class="ai ai-orcid"></i> ORCiD: [0000-0001-7490-1571](https://orcid.org/0000-0001-7490-1571)
+- <i class="ai ai-osf"></i> [Geraldine Klarenberg](osf.io/4puqk)  
+- <i class="ai ai-figshare"></i> [Geraldine Klarenberg](https://figshare.com/authors/Geraldine_Klarenberg/3624188)
+ -->
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+- Statistics
+- Machine learning
+- R programming language (incl Rmarkdown and Shiny) 
+- Python
+- git, GitHub, GitLab
+- SLURM job scripts 
+- Unix
+- Languages: English, Dutch, French, German
+
+GALLUP StrengthFinder themes (2015) {#skills}
+--------------------------------------------------------------------------------
+- _Executing:_
+- [**1. Restorative -**](https://www.gallup.com/cliftonstrengths/en/252323/restorative-theme.aspx) "I love to solve problems."
+- _Influencing:_
+- [**2. Communication -**](https://www.gallup.com/cliftonstrengths/en/252185/communication-theme.aspx) "I like to explain, to describe, to host, to speak in public, and to write."
+- _Relationship building:_
+- [**3. Harmony -**](https://www.gallup.com/cliftonstrengths/en/252254/harmony-theme.aspx) "I look for areas of agreement."
+- [**4. Connectedness -**](https://www.gallup.com/cliftonstrengths/en/252197/connectedness-theme.aspx) "Things happen for a reason."
+- [**5. Adaptability -**](https://www.gallup.com/cliftonstrengths/en/252146/adaptability-theme.aspx) "I live in the moment."
+
+Passions {#skills}
+--------------------------------------------------------------------------------
+Exploring, family, fixing things, running, hiking, water (in any shape or form), cooking, nature, life.
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+
+Main
+================================================================================
+
+Geraldine Klarenberg, PhD {#title}
+--------------------------------------------------------------------------------
+
+I am a **Quantitative Data Scientist** with some qualitative data experience. I am passionate about any and all data; find them, make them usable, explore them, visualize them and analyze them. I have worked on a variety of datasets; spatial, satellite/remote sensing, survey, environmental, health-related. I approach every dataset and every project with excitement and curiosity. I love Exploratory Data Analysis (EDA) to summarize and better understand data, as well as statistical analyses and simulation model creation to answer important questions.
+
+Areas of expertise: **Data cleaning and wrangling**, **Exploratory data analysis** (e.g. cluster analysis and dimensionality reduction), **Data visualization**, **Descriptive statistics**, **Inferential statistics** (e.g. multivariate regression and mixed effect models), **Time series analysis** (e.g. non-linear time series analysis, signal decomposition and causality), **Simulation (process) modeling** (e.g. matrix models, individual-based models), **Uncertainty and sensitivity analysis**, **Geographic Information Systems (GIS)** (spatial analysis in general), **Supervised machine learning** (classification: random forest, logistic regression), **Qualitative analysis** (survey analysis)
+
+Currently working on: Google Machine Learning Crash course, NVIDIA DLI: Accelerated Data Science with RAPIDS
+
+Things I want to learn: Scrum project management, text analysis, more HTML and CSS, cloud computing (AWS or Azure).
+
+Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Lecturer Quantitative Data Science (faculty)
+
+University of Florida
+
+Gainesville, Florida (USA)
+
+current - 2019
+
+School of Forest, Fisheries and Geomatics Sciences.
+- Teach undergraduate and graduate classes on programming, coding, open science and open data, data wrangling, reproducibility, simulation modeling, statistics and data visualization - using R, Python and git.
+- Conduct workshops on similar topics for faculty and staff.
+- Provide consulting services to students, staff and faculty on programming and statistics (methods, design, implementation).
+- Mentor and advise graduate students.
+
+### Post-doctoral Associate
+
+University of Florida
+
+Gainesville, Florida (USA)
+
+2019 - 2018
+
+Department of Wildlife Ecology and Conservation.
+- Development of a dynamic abundance model (state-space model) simulating long-term trends of annual tick populations in Florida, including weather-related and environmental variables.
+- Guide and mentor undergraduate and graduate students.
+
+### Post-doctoral researcher
+
+University of Florida
+
+Gainesville, Florida (USA)
+
+2018 - 2017
+
+Department of Agricultural and Biological Engineering. Development and analysis of indicators focused on Sustainable Intensification of agriculture in Tanzania, based on a dataset available through the Vital Signs project (www.vitalsigns.org). Main focus - environmental indicators: biodiversity, land cover, biomass, erosion, landscape fragmentation, rainfall and temperature anomalies. Others - economic, social, productivity and human condition indicators.
+
+### Biological Scientist II
+
+University of Florida
+
+Gainesville, Florida (USA)
+
+2017 - 2016
+
+- Development of a dynamic matrix population model for bonefish in the Florida Bay area, including optimization
+- Analysis of a long-term Florida horseshoe crab monitoring dataset, and the development of a dynamic occupancy model (aka a state-space model)
+
+  
+### Statistician
+
+Suwannee River Water Management District
+
+Live Oak, Florida (USA)
+
+2016 - 2015
+
+- Analysis of flow and water quality data for research and policy purposes
+- Evaluation of, and assisting with, consultants’ statistical analyses
+- Contribute to database development and sampling designs
+- Development of R code and scripts for data extraction, analysis, synthesis and presentation. 
+
+### Graduate Research Assistant
+
+University of Florida
+
+Gainesville, Florida (USA)
+
+2015 - 2012
+
+At the Department of Agricultural and Biological Engineering, part of the project "Global Sensitivity & Uncertainty Analysis for Evaluation of Ecological Resilience: Theoretical Debates over Infrastructure Impacts on Livelihoods & Forest Change".
+
+- Development of a spatially explicit dataset on environmental variables and variables associated with infrastructure development.
+- Statistical analyses: clustering, development of a state-space model (Dynamic Factor Analysis) and non-linear time series analyses.
+- Write reports, prepare and give presentations.
+
+### Consultant
+
+Self-employed
+
+South Africa / USA
+
+2011 - 2010
+
+Research, analysis, information syntheses and report development for various clients (government, universities, non-profits) on Integrated Water Resources Management, water supply and sanitation services, climate change adaption, etc. Contributed technical and public participation expertise.
+
+### Program manager / Policy Specialist
+
+The Mvula Trust (NGO)
+
+Johannesburg, South Africa
+
+2010 - 2005
+
+- Policy analysis and strategic document development (water provision, water resources management, rainwater management, multiple use of water)
+- Project and program management (subcontractor management, budgeting, tendering, proposal and progress report writing) on behalf of the South African government.
+
+Education {data-icon=graduation-cap}
+--------------------------------------------------------------------------------
+
+### University of Florida
+
+PhD 
+
+Gainesville, Florida, USA
+
+2017
+
+Agricultural and Biological Engineering with a certificate in Biological Systems Modeling
+
+### Wageningen University
+
+BSc and MSc
+
+Wageningen, The Netherlands
+
+2004
+
+International Land and Water Management (hydrology and irrigation) with a 'minor' in Law and Governance
+
+Service {data-icon="fas fa-hands-helping"}
+--------------------------------------------------------------------------------
+
+### R-Users Group Gainesville
+
+Organizer
+
+Gainesville, Florida (USA)
+
+current - 2020
+
+We organize workshops, talks, tutorials and social activities for users of the programming language R.
+
+### R-Ladies Gainesville
+
+Co-founder and organizer
+
+Gainesville, Florida (USA)
+
+current - 2018
+
+R-Ladies is a worldwide organization whose mission it is to promote gender diversity in the R community. As the local chapter, we organize monthly meetings, workshops and socializing events.
+
+### UF Carpentries Club
+
+Board member (treasurer)
+
+Gainesville, Florida (USA)
+
+2019 - 2018
+
+I am also a Certified Data and Software Carpentry instructor since 2017, and still actively teach and help at UF Carpentries workshops on R and Python.
+
+### American Society of Agricultural and Biological Engineers
+
+Various positions
+
+Florida/USA
+
+2018 - 2014
+
+- Publicity chair for the Florida section (2017 - 2018)
+- Member-at-large (Graduate Student Relationships) of the Young Professionals Community (YPC) at national level (2014 - 2015)
+
+### PhDMoms
+
+Co-president
+
+Gainesville, Florida (USA)
+
+2015 - 2014
+
+I led a graduate student organization at the University of Florida that supports doctoral student-parents, with specific attention to female student-parents
+
+### UF Agricultural and Biological Engineering Graduate Student Organization
+
+President
+
+Gainesville, Florida (USA)
+
+2015 - 2013
+
+Organization of professional development and social activities for graduate students.
+
+### Science fair judging (middle schools)
+
+Judge
+
+Alachua county, Florida (USA)
+
+current - 2013

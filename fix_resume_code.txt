@@ -1,0 +1,91 @@
+Make the non-academic resume work:
+
+Problem with Fira Sans. Did different things: installed packages(s) from TRAN, put them in the correct folder (I hope?). But it kept complaining. Added \usepackage{fira} to tex file. Did not work.
+
+Also installed:
+
+
+Eventually, in the Rmd file, I changed "sansfont: Fira Sans" to "sansfont: cochineal".
+
+Now error is about FontAwesome (can't find file FontAwesome).
+Added \usepackage{fontspec} to tex file (https://tex.stackexchange.com/questions/132888/fontawesome-font-not-found). Still does not work.
+
+Ended up (re)installing tinytex. Got a warning that usr/local/bin was not writable so made it writable with sudo chmod a+w bin. Re-installed and called it.
+
+FYI fontawesome icons: https://fontawesome.com/v5/search
+
+Tried:
+Alternatively, you can compile your .Rmd file with xelatex in RStudio by going to Tools > Global Options > Sweave and in Typeset LaTeX into PDF using: choose XeLaTeX.
+Also did not work.
+
+Set it back to pdfLatex again
+
+Followed these instructions: https://tex.stackexchange.com/questions/369068/how-can-i-use-the-fontawesome-package-with-xelatex
+
+Ran
+sudo updmap-sys
+kpsewhich fontawesome.map
+sudo -u tlusr updmap-sys #failed, no tlusr
+
+Tried to add
+\newfontfamily{\FA}{fontawesome.otf}
+to svm-resume-example.
+No luck
+
+WHAT WORKED!
+Moved folder fontawesome and fontawesome5 to Library/Fonts...
+Output looks janky but okay. Commented all the other crap out again. Kept only \usepackage{fontawesome}
+Still works
+
+Did the same thing with fira and firamath.
+Changed sanfont back Fira Sans.
+WORKS!
+Updated usepackage to fontawesome5 but I don't think it make a difference.
+
+Warnings: 
+Command \underbar  has changed
+Command \underline  has changed.
+
+#####################
+It all comes down to the YAML header.
+Trying to figure out how to set this up. According to the book, I should be able to set it up any way, using html and tex interchangeably.
+
+##########
+Ended up going back to the resume template that comes with pagedown.
+Uses fontawesome4. How to get to 5?
+Supposedly: https://fontawesome.com/kits/c5710c4819/use
+Fontawesome4 info: https://fontawesome.com/v4/examples
+
+There is a css file that can be changed: pagedown/inst/resources/css/resume.css
+And an html file: pagedown/inst/resources/html/resume.html
+Css controls layout and and presentation (position). Overall look and formatting. Html just turns it into a webpage, identifies headers etc, structure of webpage
+
+I could also add a tex file, I think? But let's start with html and css first.
+Made separate css file:
+- change font 
+- change header from all capitals to regular capitalized
+- change url link color to purple (for colors, just google css colors)
+
+- Move text under education closer together: remove data-concise = true in the Rmarkdown (I think in the css file, this is the part that might add the space:
+
+.main-block.concise .details div:not(.concise){
+  /* use padding to work around the fact that margin doesn't affect floated
+     neighboring elements */
+  padding: 0.05in 0 0.07in 0;
+}
+- Have text on second page run across, or run sidebar on second page as well?
+
+Added academic icon
+https://jpswalsh.github.io/academicons/#alongside-font-awesome
+
+
+TO DO
+Make right margins smaller so text in ribbon fits better (also left margins)
+Education: take out diss and theses titles
+Add content to professional skills
+Make blurb more focused
+Remove right ribbon on second page? Make everything fit on one page?
+
+Def get rid of ribbon on 2nd page, or figure out how to put info on the ribbon
+Smaller headers in ribbon. Less space between header and text. Make ribbon different color. Add the thing with dots/stars with skills. Change R programming language to R.
+
