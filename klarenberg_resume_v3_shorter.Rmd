@@ -80,7 +80,7 @@ I am passionate about any and all data; find them, make them usable, explore the
 
 Specific expertise {data-icon=suitcase}
 --------------------------------------------------------------------------------
-**Data cleaning and wrangling**, **Exploratory data analysis** (e.g. cluster analysis and dimensionality reduction), **Data visualization**, **Descriptive statistics**, **Inferential statistics** (e.g. multivariate regression and mixed effect models), **Time series analysis** (e.g. non-linear time series analysis, signal decomposition and causality), **Simulation (process) modeling** (e.g. matrix models, individual-based models), **Uncertainty and sensitivity analysis**, **Geographic Information Systems (GIS)** (spatial analysis in general), **Supervised machine learning** (classification: random forest, logistic regression), **Qualitative analysis** (survey analysis)
+Data cleaning and wrangling, Exploratory data analysis, Data visualization, Descriptive statistics, Inferential statistics, Time series analysis - incl. signal decomposition and causality, Simulation (process) modeling, Uncertainty and sensitivity analysis, Spatial analyses, Supervised machine learning, Qualitative (survey) analysis.
 
 Currently working on: Google Machine Learning Crash course, NVIDIA DLI: Accelerated Data Science with RAPIDS
 
@@ -96,7 +96,6 @@ University of Florida
 Gainesville, Florida (USA)
 
 current - 2019
-
 
 School of Forest, Fisheries and Geomatics Sciences.
 
@@ -114,15 +113,18 @@ Gainesville, Florida (USA)
 2019 - 2016
 
 **Post-doctoral Associate**, (2018-2019)
+
 Department of Wildlife Ecology and Conservation.
 - Development of a dynamic population abundance model (state-space model) in R.
 - Guide and mentor undergraduate and graduate students.
 
 **Post-doctoral researcher**, (2017 - 2018)
+
 Department of Agricultural and Biological Engineering. 
 - Collection, organization, feature engineering and analysis of a range of agricultural indicators (environmental, economic, social, productivity and human condition indicators).
 
 **Biological Scientist II**, (2016 - 2017)
+
 - Development of a dynamic matrix population model, including MLE optimization
 - Analysis of a long-term Florida horseshoe crab monitoring dataset, and the development of a dynamic occupancy model (aka a state-space model)
 
